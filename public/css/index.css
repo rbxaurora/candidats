@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+body {
+    background-color: #2d2d2d;
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.logo-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px;
+}
+
+.logo-cont {
+    width: 360px;
+    margin: 0 auto;
+}
+
+.form-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.form-label {
+    color: white;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.form-control {
+    display: block;
+    color: black;
+    font-weight: 700;
+    width: 360px;
+}
+
+.btn-primary {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 700;
+}
+
+.loading-logo {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    padding: 0;
+    margin-top: 50px;
+}
+
+.lds-ring {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+.lds-ring div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border: 8px solid #fff;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: #fff transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+    animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+    animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+    animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+}
+  
+.error-title {
+    font-weight: 800;
+    color: white;
+    font-size: 12rem;
+    margin: 0;
+}
+
+.error-subtitle {
+    color: white;
+    font-weight: 700;
+    font-size: 2.8rem;
+    margin-top: 0;
+}
+
+.error-desc {
+    display: block;
+    margin: 0 auto;
+    font-weight: 1.8rem;
+    color: #fff;
+    font-weight: 500;
+    width: 500px;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.card-title, .card-text {
+    color: white;
+}
+
+.card-active {
+    outline: 3px solid yellow;
+}
+
+.choice-title {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.done-title {
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.done-desc {
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    color: white;
+    width: 400px;
+    text-align: center;
+}
+
+.form-result {
+    user-select: none;
+}
